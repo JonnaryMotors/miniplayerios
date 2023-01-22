@@ -1,0 +1,23 @@
+{
+    "build": {
+      "development": {
+        "developmentClient": true,
+        "distribution": "internal",
+        "ios": {
+          "resourceClass": "m1-medium"
+        }
+      },
+      "preview": {
+        "distribution": "internal"
+      },
+      "production": {
+        "ios": {
+          "resourceClass": "m1-medium"
+        }
+      }
+    },
+    "cli": {
+      "promptToConfigurePushNotifications": false
+    }
+  }
+  
